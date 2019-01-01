@@ -12,10 +12,10 @@ https://hackerthemes.com/bootstrap-cheatsheet/		# Шпора КРУУТЬ!
 		JQUERY
 https://oscarotero.com/jquery/ 	# ШПОРА АГОНЬ!
 
-		УСТАНОВКА И ЗАПУСК DJANGO
+		#УСТАНОВКА И ЗАПУСК DJANGO
 #Установка virtualenv для конкретного Python37:
 virtualenv venv -p C:\Users\Olezhik\AppData\Local\Programs\Python\Python37\python.exe
-# Чтобы virtualenv был транспортируемый
+	Чтобы virtualenv был транспортируемый
 virtualenv --relocatable my-venv
 
 #Активирую virtualenv:
@@ -24,19 +24,19 @@ venv\scripts\activate
 #Установка Django:
 pip install Django
 
-# Создаю проект на Django
-# В папке с venv, где empl=имя проекта:
+	# Создаю проект на Django
+#В папке с venv, где empl=имя проекта:
 django-admin startproject empl
 
-# Захожу в папку проекта:
+#Захожу в папку проекта:
 cd empl
 
-# Запускаю проект (1 вариант из 3):
+#Запускаю проект (1 вариант из 3):
 python manage.py runserver			# Запустит на http://127.0.0.1:8000/
 python manage.py runserver 5000		# Запустит на http://127.0.0.1:5000/
 python manage.py runserver 192.168.31.174:5000	# Добавить 192.168.31.174 в settings.py в ALLOWED_HOSTS
 
-# Создаю приложение:
+#Создаю приложение:
 python manage.py startapp tree
 
 # Делаю миграции
