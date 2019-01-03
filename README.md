@@ -12,6 +12,9 @@ https://hackerthemes.com/bootstrap-cheatsheet/		# Шпора КРУУТЬ!
 	JQUERY
 https://oscarotero.com/jquery/ 	# ШПОРА АГОНЬ!
 
+	Доки JqueryUI
+https://api.jqueryui.com/category/interactions/
+
 # УСТАНОВКА И ЗАПУСК DJANGO
 #Установка virtualenv для конкретного Python37:
 virtualenv venv -p C:\Users\Olezhik\AppData\Local\Programs\Python\Python37\python.exe
